@@ -332,7 +332,7 @@ int main () {
 					case '9':
 					case '0':
 						//cout << "Adding cell of age " << (int) temp << endl;
-						newCell = FredkinCell(true, atoi(&temp));
+						newCell = FredkinCell(true, (int)( temp - '0'));
 						break;
 					default :
 						//new line character or garbage, disregard
@@ -407,7 +407,7 @@ int main () {
 					case '9':
 					case '0':
 						//cout << "Adding cell of age " << (int) temp << endl;
-						cells.push_back(new FredkinCell(true, atoi(&temp)));
+						cells.push_back(new FredkinCell(true, (int)( temp - '0')));
 						break;
 					default :
 						//new line character or garbage, disregard
@@ -481,7 +481,7 @@ int main () {
 					case '9':
 					case '0':
 						//cout << "Adding cell of age " << (int) temp << endl;
-						cells.push_back(new FredkinCell(true, atoi(&temp)));
+						cells.push_back(new FredkinCell(true, (int)( temp - '0')));
 						break;
 					default :
 						//new line character or garbage, disregard
@@ -555,7 +555,7 @@ int main () {
 					case '9':
 					case '0':
 						//cout << "Adding cell of age " << (int) temp << endl;
-						cells.push_back(new FredkinCell(true, atoi(&temp)));
+						cells.push_back(new FredkinCell(true, (int)( temp - '0')));
 						break;
 					default :
 						//new line character or garbage, disregard
@@ -629,7 +629,7 @@ int main () {
 					case '9':
 					case '0':
 						//cout << "Adding cell of age " << (int) temp << endl;
-						cells.push_back(new FredkinCell(true, atoi(&temp)));
+						cells.push_back(new FredkinCell(true, (int)( temp - '0')));
 						break;
 					default :
 						//new line character or garbage, disregard
@@ -703,7 +703,7 @@ int main () {
 					case '9':
 					case '0':
 						//cout << "Adding cell of age " << (int) temp << endl;
-						cells.push_back(new FredkinCell(true, atoi(&temp)));
+						cells.push_back(new FredkinCell(true, (int)( temp - '0')));
 						break;
 					default :
 						//new line character or garbage, disregard
@@ -777,7 +777,7 @@ int main () {
 					case '9':
 					case '0':
 						//cout << "Adding cell of age " << (int) temp << endl;
-						cells.push_back(new FredkinCell(true, atoi(&temp)));
+						cells.push_back(new FredkinCell(true, (int)( temp - '0')));
 						break;
 					default :
 						//new line character or garbage, disregard
