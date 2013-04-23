@@ -864,7 +864,7 @@ int main () {
         assert(false);}
 
     // --------
-    // Cell 6x5
+    // Cell 2x2
     // --------
 
     try {
