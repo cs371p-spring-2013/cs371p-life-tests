@@ -74,7 +74,7 @@ int main () {
             }
         }
         inFile.close();
-        a.playLifeGame(11, 1);
+        a.playLifeGame(10, 1);
         for (int i = 0; i < 273; ++i){
             a.playLifeRound();
         }
