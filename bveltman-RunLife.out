@@ -1,5 +1,6 @@
 RunLife
 *** Life<ConwayCell> 109x69 ***
+
 Generation = 0, Population = 35
 .....................................................................
 .....................................................................
@@ -1555,6 +1556,7 @@ Generation = 2501, Population = 192
 .....................................................................
 
 *** Life<FredkinCell> 20x20 ***
+
 Generation = 0, Population = 4
 --------------------
 --------------------
@@ -1688,6 +1690,7 @@ Generation = 5, Population = 32
 --------------------
 
 *** Life<Cell> 20x20 ***
+
 Generation = 0, Population = 6
 --------------------
 --------------------
@@ -1821,6 +1824,7 @@ Generation = 5, Population = 52
 --------------------
 
 *** Life<ConwayCell> 8x8 ***
+
 Generation = 0, Population = 14
 ...*....
 ...**...
@@ -1882,6 +1886,7 @@ Generation = 5, Population = 0
 ........
 
 *** Life<ConwayCell> 10x6 ***
+
 Generation = 0, Population = 6
 ...*..
 ...**.
@@ -1955,6 +1960,7 @@ Generation = 5, Population = 6
 ......
 
 *** Life<ConwayCell> 4x4 ***
+
 Generation = 0, Population = 8
 *.*.
 *.*.
@@ -2016,6 +2022,7 @@ Generation = 9, Population = 4
 ....
 
 *** Life<ConwayCell> 8x8 ***
+
 Generation = 0, Population = 32
 *.*.*.*.
 *.*.*.*.
@@ -2077,6 +2084,7 @@ Generation = 5, Population = 4
 ........
 
 *** Life<ConwayCell> 20x20 ***
+
 Generation = 0, Population = 100
 *.*.*.*.*...........
 *.*.*.*.*...........
@@ -2276,6 +2284,7 @@ Generation = 8, Population = 28
 ....................
 
 *** Life<FredkinCell> 8x8 ***
+
 Generation = 0, Population = 14
 ---0----
 ---00---
@@ -2337,6 +2346,7 @@ Generation = 5, Population = 32
 10-----0
 
 *** Life<FredkinCell> 10x6 ***
+
 Generation = 0, Population = 6
 ---0--
 ---00-
@@ -2410,6 +2420,7 @@ Generation = 5, Population = 25
 ------
 
 *** Life<FredkinCell> 4x4 ***
+
 Generation = 0, Population = 8
 0-0-
 0-0-
@@ -2471,6 +2482,7 @@ Generation = 9, Population = 12
 00-0
 
 *** Life<FredkinCell> 8x8 ***
+
 Generation = 0, Population = 32
 0-0-0-0-
 0-0-0-0-
@@ -2532,6 +2544,7 @@ Generation = 5, Population = 36
 ---020--
 
 *** Life<ConwayCell> 20x20 ***
+
 Generation = 0, Population = 100
 0-0-0-0-0-----------
 0-0-0-0-0-----------
@@ -2731,6 +2744,7 @@ Generation = 8, Population = 154
 --1-0-5-0-1-0-2-0---
 
 *** Life<Cell> 8x8 ***
+
 Generation = 0, Population = 14
 ---0----
 ---00---
@@ -2792,6 +2806,7 @@ Generation = 5, Population = 28
 10--0--0
 
 *** Life<Cell> 10x6 ***
+
 Generation = 0, Population = 6
 ---0--
 ---00-
@@ -2865,6 +2880,7 @@ Generation = 5, Population = 26
 ------
 
 *** Life<Cell> 4x4 ***
+
 Generation = 0, Population = 8
 0-0-
 0-0-
@@ -2926,6 +2942,7 @@ Generation = 9, Population = 4
 -0*-
 
 *** Life<Cell> 8x8 ***
+
 Generation = 0, Population = 32
 0-0-0-0-
 0-0-0-0-
@@ -2987,6 +3004,7 @@ Generation = 5, Population = 38
 ---0*-.0
 
 *** Life<Cell> 20x20 ***
+
 Generation = 0, Population = 100
 0-0-0-0-0-----------
 0-0-0-0-0-----------
