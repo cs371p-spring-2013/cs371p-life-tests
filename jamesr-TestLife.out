@@ -1,0 +1,9 @@
+valgrind TestLife
+TestLife.c++
+..................................................
+
+
+OK (50 tests)
+
+
+Done.
