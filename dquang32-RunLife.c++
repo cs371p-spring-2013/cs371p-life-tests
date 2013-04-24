@@ -132,14 +132,14 @@ int main () {
         assert(false);}
 
     // ------------------
-    // Conway Cell 100x10
+    // Conway Cell 30x10
     // ------------------
 
     try {
-        cout << "*** Life<ConwayCell> 100x10 ***" << endl;
+        cout << "*** Life<ConwayCell> 30x10 ***" << endl;
 
         Life<ConwayCell> z(100,10,10);
-        for(int i = 50; i < 70; i++)
+        for(int i = 10; i < 30; i++)
             for(int j = 0; j < 7; j++)
                 z.put(i,j);
         z.run();
@@ -206,15 +206,15 @@ int main () {
         assert(false);}
 
     // ------------------
-    // Fredkin Cell 100x100
+    // Fredkin Cell 40x40
     // ------------------
 
     try {
-        cout << "*** Life<FredkinCell> 100x100 ***" << endl;
+        cout << "*** Life<FredkinCell> 40x40 ***" << endl;
 
-        Life<FredkinCell> y(100,100,30);
-        for(int i = 20; i < 50; i++)
-            for(int j = 10; j < 100; j++)
+        Life<FredkinCell> y(40,40,30);
+        for(int i = 20; i < 30; i++)
+            for(int j = 10; j < 20; j++)
                 y.put(i,j);
         y.run();
         }
@@ -278,15 +278,15 @@ int main () {
         assert(false);}
 
     // ----------
-    // Cell 100x100
+    // Cell 30x30
     // ----------
 
     try {
-        cout << "*** Life<Cell> 100x100 ***" << endl;
+        cout << "*** Life<Cell> 30x30 ***" << endl;
 
-        Life<Cell> x(100,100, 20, "Cell");
-        for(int i = 10; i < 70; i++)
-            for(int j = 10; j < 50; j++)
+        Life<Cell> x(30,30, 20, "Cell");
+        for(int i = 10; i < 20; i++)
+            for(int j = 10; j < 20; j++)
                 x.put(i,j);
         x.runCell();
         }
