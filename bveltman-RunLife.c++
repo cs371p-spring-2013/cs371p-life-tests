@@ -54,7 +54,7 @@ int main () {
 
     try {
         cout << "*** Life<ConwayCell> 109x69 ***" << endl;
-        
+        cout << endl;
         ifstream inFile;
         char inputFileName[] = "RunLifeConway.in";
         inFile.open(inputFileName, ios::in);
@@ -74,7 +74,7 @@ int main () {
             }
         }
         inFile.close();
-        a.playLifeGame(11, 1);
+        a.playLifeGame(10, 1);
         for (int i = 0; i < 273; ++i){
             a.playLifeRound();
         }
@@ -110,7 +110,7 @@ int main () {
 
     try {
         cout << "*** Life<FredkinCell> 20x20 ***" << endl;
-        
+        cout << endl;
         ifstream inFile;
         char inputFileName[] = "RunLifeFredkin.in";
         inFile.open(inputFileName, ios::in);
@@ -149,7 +149,7 @@ int main () {
 
     try {
         cout << "*** Life<Cell> 20x20 ***" << endl;
-        
+        cout << endl;
         ifstream inFile;
         char inputFileName[] = "RunLifeCell.in";
         inFile.open(inputFileName, ios::in);
@@ -185,6 +185,7 @@ int main () {
     //Additional ConwayCell Tests
     try {
         cout << "*** Life<ConwayCell> 8x8 ***" << endl;
+        cout << endl;
         Life<ConwayCell> a(8,8);
         for(int i = 0; i < 7; ++i){
                 ConwayCell* c = new ConwayCell();
@@ -202,6 +203,7 @@ int main () {
 
     try {
         cout << "*** Life<ConwayCell> 10x6 ***" << endl;
+        cout << endl;
         Life<ConwayCell> a(10,6);
         for(int i = 0; i < 3; ++i){
                 ConwayCell* c = new ConwayCell();
@@ -220,6 +222,7 @@ int main () {
 
     try {
         cout << "*** Life<ConwayCell> 4x4 ***" << endl;
+        cout << endl;
         Life<ConwayCell> a(4,4);
         for(int i = 0; i < 4; ++i){
             for (int j = 0 ; j < 4; ++j){
@@ -240,6 +243,7 @@ int main () {
 
     try {
         cout << "*** Life<ConwayCell> 8x8 ***" << endl;
+        cout << endl;
         Life<ConwayCell> a(8,8);
         for(int i = 0; i < 8; ++i){
             for (int j = 0 ; j < 8; ++j){
@@ -263,6 +267,7 @@ int main () {
         assert(false);}
     try {
         cout << "*** Life<ConwayCell> 20x20 ***" << endl;
+        cout << endl;
         Life<ConwayCell> a(20,20);
         for(int i = 0; i < 20; ++i){
             for (int j = 0 ; j < 10; ++j){
@@ -288,6 +293,7 @@ int main () {
 
     try {
         cout << "*** Life<FredkinCell> 8x8 ***" << endl;
+        cout << endl;
         Life<FredkinCell> a(8,8);
         for(int i = 0; i < 7; ++i){
                 FredkinCell* c = new FredkinCell();
@@ -305,6 +311,7 @@ int main () {
 
     try {
         cout << "*** Life<FredkinCell> 10x6 ***" << endl;
+        cout << endl;
         Life<FredkinCell> a(10,6);
         for(int i = 0; i < 3; ++i){
                 FredkinCell* c = new FredkinCell();
@@ -323,6 +330,7 @@ int main () {
 
     try {
         cout << "*** Life<FredkinCell> 4x4 ***" << endl;
+        cout << endl;
         Life<FredkinCell> a(4,4);
         for(int i = 0; i < 4; ++i){
             for (int j = 0 ; j < 4; ++j){
@@ -343,6 +351,7 @@ int main () {
 
     try {
         cout << "*** Life<FredkinCell> 8x8 ***" << endl;
+        cout << endl;
         Life<FredkinCell> a(8,8);
         for(int i = 0; i < 8; ++i){
             for (int j = 0 ; j < 8; ++j){
@@ -366,6 +375,7 @@ int main () {
         assert(false);}
     try {
         cout << "*** Life<ConwayCell> 20x20 ***" << endl;
+        cout << endl;
         Life<FredkinCell> a(20,20);
         for(int i = 0; i < 20; ++i){
             for (int j = 0 ; j < 10; ++j){
@@ -390,6 +400,7 @@ int main () {
     
     try {
         cout << "*** Life<Cell> 8x8 ***" << endl;
+        cout << endl;
         Life<Cell> a(8,8);
         for(int i = 0; i < 7; ++i){
                 Cell* c = new Cell();
@@ -407,6 +418,7 @@ int main () {
 
     try {
         cout << "*** Life<Cell> 10x6 ***" << endl;
+        cout << endl;
         Life<Cell> a(10,6);
         for(int i = 0; i < 3; ++i){
                 Cell* c = new Cell();
@@ -425,6 +437,7 @@ int main () {
 
     try {
         cout << "*** Life<Cell> 4x4 ***" << endl;
+        cout << endl;
         Life<Cell> a(4,4);
         for(int i = 0; i < 4; ++i){
             for (int j = 0 ; j < 4; ++j){
@@ -445,6 +458,7 @@ int main () {
 
     try {
         cout << "*** Life<Cell> 8x8 ***" << endl;
+        cout << endl;
         Life<Cell> a(8,8);
         for(int i = 0; i < 8; ++i){
             for (int j = 0 ; j < 8; ++j){
@@ -468,6 +482,7 @@ int main () {
         assert(false);}
     try {
         cout << "*** Life<Cell> 20x20 ***" << endl;
+        cout << endl;
         Life<Cell> a(20,20);
         for(int i = 0; i < 20; ++i){
             for (int j = 0 ; j < 10; ++j){
