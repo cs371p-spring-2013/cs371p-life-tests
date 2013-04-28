@@ -1,4 +1,5 @@
 *** Life<ConwayCell> 109x69 ***
+
 Generation = 0, Population = 35.
 .....................................................................
 .....................................................................
@@ -444,6 +445,7 @@ Generation = 2500, Population = 192.
 .....................................................................
 
 *** Life<FredkinCell> 20x20 ***
+
 Generation = 0, Population = 4.
 --------------------
 --------------------
@@ -577,6 +579,7 @@ Generation = 5, Population = 32.
 --------------------
 
 *** Life<Cell> 20x20 ***
+
 Generation = 0, Population = 6.
 --------------------
 --------------------
@@ -710,6 +713,7 @@ Generation = 5, Population = 52.
 --------------------
 
 *** Life<ConwayCell> 20x20 : Glider ***
+
 Generation = 0, Population = 5.
 .*..................
 ..*.................
@@ -843,6 +847,7 @@ Generation = 5, Population = 5.
 ....................
 
 *** Life<ConwayCell> 20x20 : Small Exploder ***
+
 Generation = 0, Population = 7.
 ....................
 ....................
@@ -976,6 +981,7 @@ Generation = 5, Population = 22.
 ....................
 
 *** Life<ConwayCell> 0x0 ***
+
 Generation = 0, Population = 0.
 
 Generation = 1, Population = 0.
@@ -989,6 +995,7 @@ Generation = 4, Population = 0.
 Generation = 5, Population = 0.
 
 *** Life<ConwayCell> 1x1 ***
+
 Generation = 0, Population = 0.
 .
 
@@ -1008,6 +1015,7 @@ Generation = 5, Population = 0.
 .
 
 *** Life<ConwayCell> 6x6 : Toad ***
+
 Generation = 0, Population = 6.
 ......
 ......
@@ -1057,6 +1065,7 @@ Generation = 5, Population = 6.
 ......
 
 *** Life<FredkinCell> 0x0 ***
+
 Generation = 0, Population = 0.
 
 Generation = 1, Population = 0.
@@ -1070,6 +1079,7 @@ Generation = 4, Population = 0.
 Generation = 5, Population = 0.
 
 *** Life<FredkinCell> 1x1 ***
+
 Generation = 0, Population = 0.
 -
 
@@ -1089,6 +1099,7 @@ Generation = 5, Population = 0.
 -
 
 *** Life<FredkinCell> 20x20 : Cross ***
+
 Generation = 0, Population = 5.
 --------------------
 --------------------
@@ -1222,6 +1233,7 @@ Generation = 5, Population = 32.
 --------------------
 
 *** Life<FredkinCell> 20x20 : Longer Cross ***
+
 Generation = 0, Population = 9.
 --------------------
 --------------------
@@ -1355,6 +1367,7 @@ Generation = 5, Population = 64.
 --------------------
 
 *** Life<FredkinCell> 20x20 : Ring ***
+
 Generation = 0, Population = 20.
 --------------------
 --------------------
@@ -1488,6 +1501,7 @@ Generation = 5, Population = 48.
 --------------------
 
 *** Life<Cell> 0x0 ***
+
 Generation = 0, Population = 0.
 
 Generation = 1, Population = 0.
@@ -1501,6 +1515,7 @@ Generation = 4, Population = 0.
 Generation = 5, Population = 0.
 
 *** Life<Cell> 1x1 ***
+
 Generation = 0, Population = 0.
 -
 
@@ -1520,6 +1535,7 @@ Generation = 5, Population = 0.
 -
 
 *** Life<Cell> 20x20 : Ring***
+
 Generation = 0, Population = 20.
 --------------------
 --------------------
@@ -1653,6 +1669,7 @@ Generation = 50, Population = 56.
 -...***......***...-
 
 *** Life<Cell> 20x20 : Full***
+
 Generation = 0, Population = 400.
 00000000000000000000
 00000000000000000000
@@ -1786,6 +1803,7 @@ Generation = 50, Population = 40.
 -...*.*......*.*...-
 
 *** Life<Cell> 50x50 : Full***
+
 Generation = 0, Population = 2500.
 00000000000000000000000000000000000000000000000000
 00000000000000000000000000000000000000000000000000
