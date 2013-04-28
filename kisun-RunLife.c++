@@ -51,7 +51,7 @@ int main () {
     // ------------------
 
     try {
-        cout << "*** Life<ConwayCell> 109x69 ***" << endl;
+        cout << "*** Life<ConwayCell> 109x69 ***" << endl << endl;
 
         int x, y;
 
@@ -98,7 +98,7 @@ int main () {
     // ------------------
 
     try {
-        cout << "*** Life<FredkinCell> 20x20 ***" << endl;
+        cout << "*** Life<FredkinCell> 20x20 ***" << endl << endl;
 
         int x, y;
 
@@ -134,7 +134,7 @@ int main () {
     // ----------
 
     try {
-        cout << "*** Life<Cell> 20x20 ***" << endl;
+        cout << "*** Life<Cell> 20x20 ***" << endl << endl;
         /*
         read RunLifeCell.in // assume all Fredkin cells
         Simulate 5 moves.
@@ -168,7 +168,7 @@ int main () {
     // --------------------------
 
     try {
-        cout << "*** Life<ConwayCell> 20x20 : Glider ***" << endl;
+        cout << "*** Life<ConwayCell> 20x20 : Glider ***" << endl << endl;
 
         Life<ConwayCell> life (20, 20, ConwayCell(false));
 
@@ -195,7 +195,7 @@ int main () {
     // ----------------------------------
 
     try {
-        cout << "*** Life<ConwayCell> 20x20 : Small Exploder ***" << endl;
+        cout << "*** Life<ConwayCell> 20x20 : Small Exploder ***" << endl << endl;
 
         Life<ConwayCell> life (20, 20, ConwayCell(false));
 
@@ -224,7 +224,7 @@ int main () {
     // ---------------
 
     try {
-        cout << "*** Life<ConwayCell> 0x0 ***" << endl;
+        cout << "*** Life<ConwayCell> 0x0 ***" << endl << endl;
 
         Life<ConwayCell> life (0, 0, ConwayCell(false));
 
@@ -245,7 +245,7 @@ int main () {
     // ---------------
 
     try {
-        cout << "*** Life<ConwayCell> 1x1 ***" << endl;
+        cout << "*** Life<ConwayCell> 1x1 ***" << endl << endl;
 
         Life<ConwayCell> life (1, 1, ConwayCell(false));
 
@@ -267,7 +267,7 @@ int main () {
     // ----------------------
 
     try {
-        cout << "*** Life<ConwayCell> 6x6 : Toad ***" << endl;
+        cout << "*** Life<ConwayCell> 6x6 : Toad ***" << endl << endl;
 
         Life<ConwayCell> life (6, 6, ConwayCell(false));
 
@@ -295,7 +295,7 @@ int main () {
     // ----------------
 
     try {
-        cout << "*** Life<FredkinCell> 0x0 ***" << endl;
+        cout << "*** Life<FredkinCell> 0x0 ***" << endl << endl;
 
         Life<FredkinCell> life (0, 0, FredkinCell(false));
 
@@ -316,7 +316,7 @@ int main () {
     // ----------------
 
     try {
-        cout << "*** Life<FredkinCell> 1x1 ***" << endl;
+        cout << "*** Life<FredkinCell> 1x1 ***" << endl << endl;
 
         Life<FredkinCell> life (1, 1, FredkinCell(false));
 
@@ -337,7 +337,7 @@ int main () {
     // --------------------------
 
     try {
-        cout << "*** Life<FredkinCell> 20x20 : Cross ***" << endl;
+        cout << "*** Life<FredkinCell> 20x20 : Cross ***" << endl << endl;
 
         Life<FredkinCell> life (20, 20, FredkinCell(false));
 
@@ -364,7 +364,7 @@ int main () {
     // ---------------------------------
 
     try {
-        cout << "*** Life<FredkinCell> 20x20 : Longer Cross ***" << endl;
+        cout << "*** Life<FredkinCell> 20x20 : Longer Cross ***" << endl << endl;
 
         Life<FredkinCell> life (20, 20, FredkinCell(false));
 
@@ -396,7 +396,7 @@ int main () {
     // -------------------------
 
     try {
-        cout << "*** Life<FredkinCell> 20x20 : Ring ***" << endl;
+        cout << "*** Life<FredkinCell> 20x20 : Ring ***" << endl << endl;
 
         Life<FredkinCell> life (20, 20, FredkinCell(false));
 
@@ -438,7 +438,7 @@ int main () {
     // --------
 
     try {
-        cout << "*** Life<Cell> 0x0 ***" << endl;
+        cout << "*** Life<Cell> 0x0 ***" << endl << endl;
 
         Life<Cell> life (0, 0, new FredkinCell(false));
 
@@ -459,7 +459,7 @@ int main () {
     // --------
 
     try {
-        cout << "*** Life<Cell> 1x1 ***" << endl;
+        cout << "*** Life<Cell> 1x1 ***" << endl << endl;
 
         Life<Cell> life (1, 1, new FredkinCell(false));
 
@@ -480,7 +480,7 @@ int main () {
     // -----------------
 
     try {
-        cout << "*** Life<Cell> 20x20 : Ring***" << endl;
+        cout << "*** Life<Cell> 20x20 : Ring***" << endl << endl;
 
         Life<Cell> life (20, 20, new FredkinCell(false));
 
@@ -523,7 +523,7 @@ int main () {
     // -----------------
 
     try {
-        cout << "*** Life<Cell> 20x20 : Full***" << endl;
+        cout << "*** Life<Cell> 20x20 : Full***" << endl << endl;
 
         Life<Cell> life (20, 20, new FredkinCell(true));
 
@@ -545,7 +545,7 @@ int main () {
     // -----------------
 
     try {
-        cout << "*** Life<Cell> 50x50 : Full***" << endl;
+        cout << "*** Life<Cell> 50x50 : Full***" << endl << endl;
 
         Life<Cell> life (50, 50, new FredkinCell(true));
 
